@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="loja.css" rel="stylesheet">
+    <title>Adm Login</title>
+</head>
+<body>
+    <div class="site">
+        <div id="topo" class="cabecalho">
+            <div class="logo">
+
+                <a href="index.html" class="logoitem">
+
+                    <img  src="imagens/logo.jpg" alt="Logotipo Do Site">
+                    
+                </a>
+                
+            </div>
+            <div class="pesquisar">
+                <form action="errorPage.html" method="">
+
+                    <input class="inputDebusca" type="search" placeholder="Pesquisar Por Produtos...">
+                    <button class="botaopesquisa" type="submit">Pesquisar</button>
+
+                </form>
+            </div>
+            <div class="perfil">
+
+                <a class="bnt_primario" href="carrinho.html">
+                    <ion-icon name="cart"></ion-icon>
+                    <span>Carrinho</span>
+                </a>
+
+                <a class="bnt_primario" href="login.html">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                    <span>Minha Conta</span>
+                </a>
+
+            </div>
+        
+        </div>
+    <div class="menusite">
+
+        <div class="menus">
+
+            <a class="menus" href="index.html">Ofertas Em Destaque</a>
+            <a class="menus" href="#">Celulares</a>
+            <a class="menus" href="#">Componentes De Computador</a>
+            <a class="menus" href="#">Tvs</a>
+            <a class="menus" href="#">Acessorios</a>
+
+        </div>
+    </div>
+
+
+        <div class="containerproduto">
+            <div class="loginUsuario">
+                <h1 class="entrar-text">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Logar como Administrador</span></h1>
+                <form action="">
+                <label>
+                    <label id="entrar-login" for="email">E-mail</label>
+                    <input class="bnt-login" type="email" placeholder="EX: user@age.of.technololy.com" id="email">
+                </label>
+                <label>
+                    <div class="coluna-login senhas">
+                    <label  id="entrar-login" for="senha">senha</label>
+                </div>
+                    <input class="bnt-login" type="password" id="senha">
+                </label>
+                    <button class="bnt-cont">Continuar</button>
+                </form>
+                <div class="coluna-login"><br>
+                    <p>Ao continuar com o acesso, você concorda com a nossa?<a href="errorPage.html">política de privacidade</a></p>
+                    <p>Voltar a pagina <a href="login.html">anterior</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js" ></script>        
+</body>
+</html>

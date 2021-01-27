@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="loja.css" rel="stylesheet">
+    <title>Registrar-se</title>
+</head>
+<body>
+    <div class="site">
+        <div id="topo" class="cabecalho">
+            <div class="logo">
+
+                <a href="index.html" class="logoitem">
+
+                    <img  src="imagens/logo.jpg" alt="Logotipo Do Site">
+                    
+                </a>
+                
+            </div>
+            <div class="pesquisar">
+                <form action="errorPage.html" method="">
+
+                    <input class="inputDebusca" type="search" placeholder="Pesquisar Por Produtos...">
+                    <button class="botaopesquisa" type="submit">Pesquisar</button>
+
+                </form>
+            </div>
+            <div class="perfil">
+
+                <a class="bnt_primario" href="carrinho.html">
+                    <ion-icon name="cart"></ion-icon>
+                    <span>Carrinho</span>
+                </a>
+
+                <a class="bnt_primario" href="login.html">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                    <span>Minha Conta</span>
+                </a>
+
+            </div>
+        
+        </div>
+    <div class="menusite">
+
+        <div class="menus">
+
+            <a class="menus" href="index.html">Ofertas Em Destaque</a>
+            <a class="menus" href="#">Celulares</a>
+            <a class="menus" href="#">Componentes De Computador</a>
+            <a class="menus" href="#">Tvs</a>
+            <a class="menus" href="#">Acessorios</a>
+
+        </div>
+    </div>
+
+
+        <div class="containerproduto">
+            <div class="loginUsuario">
+                <h1 class="entrar-text">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Cadastre-se</span>
+                </h1>  
+                <div class="coluna-login">
+                    <span>crie uma conta rápido e fácil com o facebook</span>
+                    <form action="login.html">
+                        <button class="Fecebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <span>Continuar com o Fecebook</span>
+                        </button>
+                    </form>
+                    <p class="registro">ou preencha o formulário abaixo</p>
+                </div>  
+                <form action="login.html">
+                <label>
+                    <label id="entrar-login" for="nome">Nome e Sobrenome</label>
+                    <input class="bnt-login" type="text" id="nome" placeholder="EX: Joao Silva">
+
+                    <label id="entrar-login" for="email">E-mail</label>
+                    <input class="bnt-login" type="email" placeholder="EX: user@gmail.com" id="email">
+
+                    <label  id="entrar-login" for="senha">senha</label>
+                    <input class="bnt-login" type="password" id="senha">
+
+                    <label  id="entrar-login" for="repit">Repita a senha</label>
+                    <input class="bnt-login" type="password" id="repit">
+
+                    <label id="entrar-login" for="cpf">CPF</label> <br>
+                    <input class="bnt-register" type="text" id="CPF" placeholder="EX: 123.456.789-12"> <br>
+
+                    <label id="entrar-login" for="Data">Data De Nacimento</label> <br>
+                    <input class="bnt-register" type="text" id="Data" placeholder="EX: 01/01/1999"> <br>
+
+                    <label id="entrar-login" for="Sexo">Sexo</label>
+                    <input type="radio" name="Sexo" id="M"> 
+                    <label id="entrar-login" for="M">Masculino</label>
+                    <input type="radio" name="Sexo" id="F"> 
+                    <label id="entrar-login" for="F">Feminino</label>
+                    <input type="radio" name="Sexo" id="O"> 
+                    <label id="entrar-login" for="O">outro</label> <br> <br>
+
+                    <label id="entrar-login" for="tel">Telefone</label> <br>
+                    <input class="bnt-register" type="tel" id="tel" placeholder="EX: (99) 99999-9999"> <br>
+                    <div class="center">
+                        <input type="checkbox" class="checkbox" id="oferta-por-email">
+                        <label id="entrar-login" for="oferta-por-email">Desejo receber ofertas por e-mail</label>
+                    </div>
+                </label>
+                    <button class="bnt-cont" type="submit">Criar Seu Cadastro</button>
+                </form>
+                <div class="coluna-login"><br>
+                    <p>Ja tem cadastro?<a href="login.html">Entrar</a></p>
+                    <p>Ao continuar com o acesso, você concorda com a nossa?<a href="errorPage.html">política de privacidade</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js" ></script>        
+</body>
+</html>
