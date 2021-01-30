@@ -520,3 +520,322 @@ ion-icon{
     display: flex;
     align-items: center;
 }
+
+/* carrinho */
+
+.caixacarrinho{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1300px;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+}
+.caixacarrinho h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 25px;
+}
+.carrinhoConteudo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    height: max-content;
+    overflow: hidden;
+}
+.carrinhoConteudo p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color:  rgb(42, 42, 226);
+} 
+.CentralizadoCarrinho{
+    display: flex;
+    justify-content: space-between;
+}
+.lista-carrinho{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.lista-carrinho li{
+    border-top-style: solid;
+    border-color: silver;
+    border-width: 1px;
+    display: flex;
+    max-width: auto;
+    height: 60px;
+    padding-left: 20px;
+    overflow: hidden;
+    align-items: center
+}
+.lista-carrinho ion-icon{
+    color: red;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.carrinho-preco{
+    margin:  0 auto;
+    color: green;
+    font-size: 30px;
+}
+.Pedido-IMG{
+    width: 70px;
+    height: 50px;
+}
+.nome-carrinho{
+    color: darkslategrey;
+    font-size: 15px;
+    margin-left: 5px;
+    width: max-content;
+    height: auto;
+    overflow: hidden;
+}
+.bnt-contador{
+    margin: 0 auto;
+    width: 30px;
+    height: 20px; 
+    border: none;
+    background-color: transparent;
+}
+.box-totalPagar{
+    background-color: white;
+    text-align: left;
+    margin-top: 20px;
+    height: max-content;
+    width: 1300px;
+}
+.box-totalPagar span{
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+} 
+.box-totalPagar h1{
+    padding-left: 25px;
+    margin: 0;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    text-align: left;
+    border-top-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Formularios-fina-Pedido{
+    display: flex;
+    align-items: baseline;
+}
+.Formularios-fina-Pedido label{
+    margin-right: 10px;
+}
+.bnt-cont-carrinho{
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* Finalizacao de Pedido */
+
+.descont{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cent-bnt-desc{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: baseline;
+    margin: 30px;
+    cursor: pointer;
+}
+#paga-forma{
+    margin: 20px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+/* pagina de detalhes do produto */
+
+.caixa-detahes{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+/* primeira aba */
+.img-detal{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.img-principal{
+    width: 400px;
+    height: 300px;
+    border-bottom-style: solid;
+    border-color: silver;
+    border-width: 1px;
+}
+.tamanho-second{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    overflow: hidden;
+    justify-content: center;
+    height: max-content;
+}
+.img-second{
+    width: 150px;
+    height: 100px;
+    border-style: solid;
+    border-color: silver;
+    border-width: 1px;
+    margin: 5px 10px;
+}
+.curtir-comp{
+    margin-top: 50px;
+    display: flex;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.Comp-Ct{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    align-items: center;
+}
+.Comp-Ct:hover {
+    color: red;
+}
+.curtir-comp ion-icon{
+    font-size: 30px;
+}
+
+/* segunda aba de detalhes */
+
+.Produt-detal{
+    width: 350px;
+    flex-wrap: wrap;
+    height: max-content;
+}
+.Produt-detal h1{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.detal-icon{
+    margin-left: 20px; 
+}
+.detal-icon ion-icon{
+    font-size: 20px;
+}
+.Produt-detal p{
+    color: darkslategray;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.caixa-Preco-detal{
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+}
+.info{
+    text-decoration: underline;
+    color: darkslategray;
+    margin-left: 15px;
+}
+/* Terceira aba dos detalhes */
+
+.Preco-detal{
+    border-radius: 10px;
+    width: 230px;
+    overflow: hidden;
+    height: 300px;
+    margin-left: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+}
+#prodt-dt{
+    color: green;
+    margin-left: 15px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.Preco-detal p{
+    margin-left: 15px;
+    width: 200px;
+    color: darkslategray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bnt-comprar{
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.bnt-comprar:hover{
+    background-color: rgba(255, 0, 0, 0.493);
+}
+.bnt-cart{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    align-items: center;
+    padding-left: 10px;
+    height: 40px;
+    background-color: blue;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: 15px;
+    font-size: 20px;
+}
+.bnt-cart:hover{
+    background-color: rgba(0, 0, 255, 0.411);
+}
+.bnt-cart span{
+    margin-left: 5px;
+}

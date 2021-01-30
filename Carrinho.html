@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     <link href="loja.css" rel="stylesheet">
-    <title>Pagina inicial</title>
+    <title>Carrinho</title>
 </head>
 <body>
 
@@ -44,104 +44,80 @@
             </div>
         
         </div>
-    <div class="menusite">
+        <div class="menusite">
 
-        <div class="menus">
+            <div class="menus">
 
-            <a class="menus" href="index.html">Ofertas Em Destaque</a>
-            <a class="menus" href="#">Celulares</a>
-            <a class="menus" href="#">Componentes De Computador</a>
-            <a class="menus" href="#">Tvs</a>
-            <a class="menus" href="#">Acessorios</a>
+                <a class="menus" href="index.html">Ofertas Em Destaque</a>
+                <a class="menus" href="#">Celulares</a>
+                <a class="menus" href="#">Componentes De Computador</a>
+                <a class="menus" href="#">Tvs</a>
+                <a class="menus" href="#">Acessorios</a>
 
+            </div>
         </div>
-    </div>
 
-    <!-- Produtos da tela Inicial -->
+    <!-- carrinho -->
 
         <div class="containerproduto">
-
-            <img id="anuncio" src="#" alt="anuncioDapagina">
-            <h1 id="Destaque">Ofertas em destaque</h1>
+            <div class="caixacarrinho">
+                <h1>Meu Carrinho</h1>
+                <div class="CentralizadoCarrinho">
+                    <div class="carrinhoConteudo">
+                        <p>Produto</p>
+                        <ul class="lista-carrinho">
+                            <li><img class="Pedido-IMG" src="imagens/Tvled24Philco.jpg" alt="Tvled24Philco">
+                                <span class="nome-carrinho">TVled Pholco 24 Polegadas</span>
+                            </li>
+                            <li><img class="Pedido-IMG" src="imagens/ProcessadorAMDRyzen5,3400G.jpg" alt="ProcessadorAMDRyzen5">
+                                <span class="nome-carrinho">Processador AMD Ryzen 5</span>
+                            </li>
+                            <li><img class="Pedido-IMG" src="imagens/XiaomiRedmiNote9S.jpg" alt="XiaomiRedmiNote9S">
+                                <span class="nome-carrinho">Xiaomi Redmi Note 9S</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carrinhoConteudo">
+                        <p>quantidade</p>
+                        <ul class="lista-carrinho">
+                            <li><input class="bnt-contador" type="number" value="1"></li>
+                            <li><input class="bnt-contador" type="number" value="1"></li>
+                            <li><input class="bnt-contador" type="number" value="1"></li>
+                        </ul>
+                    </div>
+                    <div class="carrinhoConteudo">
+                        <p>Remover</p>
+                        <ul class="lista-carrinho">
+                            <li><ion-icon name="trash-outline"></ion-icon></li>
+                            <li><ion-icon name="trash-outline"></ion-icon></li>
+                            <li><ion-icon name="trash-outline"></ion-icon></li>
+                        </ul>
+                    </div>
+                    <div class="carrinhoConteudo">
+                        <p>Preço</p>
+                        <ul class="lista-carrinho">
+                            <li><span class="carrinho-preco">R$ 989,99</span></li>
+                            <li><span class="carrinho-preco">R$ 1.399,88</span></li>
+                            <li><span class="carrinho-preco">R$ 1.449,00</span></li>
+                        </ul>
+                    </div>
                 
-            <div class="produto">
-                <a href="Tvled24P-philco.html" class="produtoitem">
-                    <img src="imagens/Tvled24Philco.jpg" alt="Tvled 24 Philco">
-                    <p id="nomeProduto">TV LED 32" Philco Ptv32f10d HD com Receptor de Sinal de Tv Digi...</p>
-                    <span class="Precopginicio">R$ 989,99</span> <br>
-                    <span class="juroPginicio">ate 1x de R$ 989,99 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="XiaomiRedmiNote9S.html" class="produtoitem">
-                    <img src="imagens/XiaomiRedmiNote9S.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Xiaomi Redmi Note 9s Dual Sim 64 Gb Azul-aurora 4 Gb Ram Global</p>
-                    <span class="Precopginicio">R$ 1.449,00</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 120,75 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="Ryzen5.html" class="produtoitem">
-                    <img src="imagens/ProcessadorAMDRyzen5,3400G.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Processador AMD Ryzen 5 3400G, Cache 6MB, 3.7GHz</p>
-                    <span class="Precopginicio">R$ 1.399,88</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 110,77 sem juros no cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="tecladohyperxPretorgb.html" class="produtoitem">
-                    <img src="imagens/TecladoHyperXalloy.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Teclado gamer HyperX Alloy Core QWERTY português brasil de cor preto com luz RGB</p>
-                    <span class="Precopginicio">R$ 269,00</span> <br>
-                    <span class="juroPginicio">ate 5x de R$ 53,80 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="PLacadeviceoGIGABYTE1050ti.html" class="produtoitem">
-                    <img src="imagens/PlacadeVídeoGigabyteNVIDIAGeForceGTX1050Ti.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Placa de Vídeo Gigabyte NVIDIA GeForce GTX 1050 Ti D5 4G, GDDR5</p>
-                    <span class="Precopginicio">R$ 1.141,06</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 95,09 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="MicrofoneHYperX.html" class="produtoitem">
-                    <img src="imagens/MicrofoneGamerHyperXQuadCast.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Microfone Gamer HyperX QuadCast, Antivibração, LED, Preto e Vermelho</p>
-                    <span class="Precopginicio">R$ 1.529,29</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 127,44 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="CadeiraGamer.html" class="produtoitem">
-                    <img src="imagens/CadeiraGamerPCTOPVermelhaPC6022.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">Cadeira Gamer PCTOP Vermelha - PC6022</p>
-                    <span class="Precopginicio">R$ 735,79</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 61,32 sem juros no Cartão</span>
-                </a>
-            </div>
-            <div class="produto">
-                <a href="HDSeagateBarraCuda.html" class="produtoitem">
-                    <img src="imagens/HDSeagateBarraCuda1TB3.5´SATAST1000DM010.jpg" alt="imagem do produto">
-                    <p id="nomeProduto">HD Seagate BarraCuda, 1TB, 3.5´, SATA - ST1000DM010</p>
-                    <span class="Precopginicio">R$ 423,41</span> <br>
-                    <span class="juroPginicio">ate 12x de R$ 35,28 sem juros no Cartão</span>
-                </a>
-            </div>
-            
-            <div class="mudarDePagina">
-                <ul class="lista-mudar">
-                    <li class="bnt-Mudar"><a href="errorPage.html">..</a></li>
-                    <li class="bnt-Mudar"><a href="index.html">1</a></li>
-                    <li class="bnt-Mudar"><a href="errorPage.html">2</a></li>
-                    <li class="bnt-Mudar"><a href="errorPage.html">4</a></li>
-                    <li class="bnt-Mudar"><a href="errorPage.html">5</a></li>
-                    <li class="bnt-Mudar"><a href="errorPage.html">..</a></li>
-                </ul>
+                    
+                </div>
+                <div class="box-totalPagar">
+                    <h1>resumo do pedido</h1>
+                    <span class="nome-carrinho">subtotal: R$ 3.768,28</span> <br>
+                    <span class="nome-carrinho">Frete: R$ 40,00</span>
+                    <h1>Total</h1>
+                    <span class="nome-carrinho">R$ 3.808,28</span>
+                </div>
+                <form action="Finalizacao-Pedido.html">
+                    <button class="bnt-cont-carrinho">Continuar</button>
+                </form>
             </div>
         </div>
 
-        <!-- Rodape do site -->
+        <!-- rodape -->
 
         <div class="rodape">
             <div class="subRodape">
@@ -265,3 +241,4 @@
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js" ></script>
 </body>
 </html>
+
