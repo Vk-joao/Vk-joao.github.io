@@ -577,7 +577,7 @@ ion-icon{
     height: 60px;
     padding-left: 20px;
     overflow: hidden;
-    align-items: center
+    align-items: center;
 }
 .lista-carrinho ion-icon{
     color: red;
@@ -838,4 +838,146 @@ ion-icon{
 }
 .bnt-cart span{
     margin-left: 5px;
+}
+
+/* ADM dashboard */
+.bnt-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    transition-duration: 0.4;
+}
+.bnt-edit:hover{
+    background-color: rgba(255, 0, 0, 0.466);
+}
+.lista-dash{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.del{
+    background-color: blue;
+}
+.del:hover{
+    background-color: rgba(0, 0, 255, 0.37);
+}
+.lista-dash a{
+    text-decoration: none;
+}
+.lista-dash li{
+    border-top-style: solid;
+    border-color: silver;
+    border-width: 1px;
+    display: flex;
+    max-width: auto;
+    height: 60px;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    padding-left: 50px;
+    width: 100%;
+}
+.adm p{
+    background-color: brown;
+}
+.adm h1{
+    background-color: brown;
+
+}
+.adm{
+    text-decoration: none;
+}
+.admR{
+    text-decoration: none;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0ms;
+}
+.admR:hover{
+    color: red;
+}
+
+/* Cadastro de produto */
+
+.cadastro-novo{
+    margin: 60px auto;
+}
+
+/* Sobre o site */
+.box-sobre{
+    width: 1400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.sobre-loja{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 900px;
+    flex-wrap: wrap;
+}
+.sobre-MVV{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+}
+.Mvv{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 25px;
+}
+.Mvv p{
+    margin: 0 auto;
+    align-items: center;
+    height: max-content;
+}
+.Sobre-Dev{
+    width: 500px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    flex-wrap: wrap;
+}
+.Dev{
+    display: flex;
+    align-items: center;
+}
+.Dev img{
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+.Dev{
+    font-size: 20px;
+}
+.SuBtitulo{
+    font-size: 15px;
+    color: darkslategray;
 }
